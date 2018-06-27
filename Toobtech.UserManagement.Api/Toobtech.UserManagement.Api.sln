@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toobtech.UserManagement.Api", "Toobtech.UserManagement.Api\Toobtech.UserManagement.Api.csproj", "{7A09FDDA-11C0-4D7B-ACFC-37076A45E6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toobtech.UserManagement.Business", "..\Toobtech.UserManagement.Business\Toobtech.UserManagement.Business.csproj", "{F3372B2F-EA47-47DF-AB32-D4E78FD333A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toobtech.UserManagement.Common", "..\Toobtech.UserManagement.Common\Toobtech.UserManagement.Common.csproj", "{1237739C-5987-45C4-9413-022ABACB5B31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toobtech.UserManagement.Data", "..\Toobtech.UserManagement.Data\Toobtech.UserManagement.Data.csproj", "{B220821B-8D47-41F8-B090-7E8FC2FD9C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toobtech.UserManagement.UI", "..\Toobtech.UserManagement.UI\Toobtech.UserManagement.UI.csproj", "{7B8F52E5-F6F6-41F0-B467-736499FF2F25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A09FDDA-11C0-4D7B-ACFC-37076A45E6AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A09FDDA-11C0-4D7B-ACFC-37076A45E6AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A09FDDA-11C0-4D7B-ACFC-37076A45E6AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A09FDDA-11C0-4D7B-ACFC-37076A45E6AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3372B2F-EA47-47DF-AB32-D4E78FD333A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3372B2F-EA47-47DF-AB32-D4E78FD333A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3372B2F-EA47-47DF-AB32-D4E78FD333A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3372B2F-EA47-47DF-AB32-D4E78FD333A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1237739C-5987-45C4-9413-022ABACB5B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1237739C-5987-45C4-9413-022ABACB5B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1237739C-5987-45C4-9413-022ABACB5B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1237739C-5987-45C4-9413-022ABACB5B31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B220821B-8D47-41F8-B090-7E8FC2FD9C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B220821B-8D47-41F8-B090-7E8FC2FD9C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B220821B-8D47-41F8-B090-7E8FC2FD9C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B220821B-8D47-41F8-B090-7E8FC2FD9C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8F52E5-F6F6-41F0-B467-736499FF2F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8F52E5-F6F6-41F0-B467-736499FF2F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8F52E5-F6F6-41F0-B467-736499FF2F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8F52E5-F6F6-41F0-B467-736499FF2F25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7172DCB2-6F8D-4103-985B-35A41C105AF4}
+	EndGlobalSection
+EndGlobal

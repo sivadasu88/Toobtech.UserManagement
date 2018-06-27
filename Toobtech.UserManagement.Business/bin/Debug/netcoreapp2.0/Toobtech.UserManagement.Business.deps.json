@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Toobtech.UserManagement.Business/1.0.0": {
+        "dependencies": {
+          "Toobtech.UserManagement.Common": "1.0.0",
+          "Toobtech.UserManagement.Data": "1.0.0"
+        },
+        "runtime": {
+          "Toobtech.UserManagement.Business.dll": {}
+        }
+      },
+      "Toobtech.UserManagement.Common/1.0.0": {
+        "runtime": {
+          "Toobtech.UserManagement.Common.dll": {}
+        }
+      },
+      "Toobtech.UserManagement.Data/1.0.0": {
+        "dependencies": {
+          "Toobtech.UserManagement.Common": "1.0.0"
+        },
+        "runtime": {
+          "Toobtech.UserManagement.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Toobtech.UserManagement.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Toobtech.UserManagement.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Toobtech.UserManagement.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

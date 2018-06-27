@@ -1,0 +1,10 @@
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.deps.json
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.runtimeconfig.json
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.runtimeconfig.dev.json
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.dll
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.pdb
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.csproj.CoreCompileInputs.cache
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.AssemblyInfoInputs.cache
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.AssemblyInfo.cs
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.dll
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.UI\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.UI.pdb

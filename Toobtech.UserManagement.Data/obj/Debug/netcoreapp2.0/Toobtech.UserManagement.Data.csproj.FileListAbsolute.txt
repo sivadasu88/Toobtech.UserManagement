@@ -1,0 +1,12 @@
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.deps.json
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.dll
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.pdb
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.Common.dll
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\bin\Debug\netcoreapp2.0\Toobtech.UserManagement.Common.pdb
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.csprojAssemblyReference.cache
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.csproj.CoreCompileInputs.cache
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.AssemblyInfoInputs.cache
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.AssemblyInfo.cs
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.csproj.CopyComplete
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.dll
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Data\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Data.pdb
