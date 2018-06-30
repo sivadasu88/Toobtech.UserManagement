@@ -13,7 +13,7 @@ namespace Toobtech.UserManagement.Data
         }
 
         public List<User> GetUsers()
-        {
+        {x
             List<User> users = new List<User>();
             users.Add(new User() { Id = 1, Name = "User1", Description = "" });
             users.Add(new User() { Id = 2, Name = "User2", Description = "" });
