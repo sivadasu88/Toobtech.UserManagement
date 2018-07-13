@@ -23,9 +23,7 @@ namespace Toobtech.UserManagement.Api.Controllers
         [HttpGet]
         public IEnumerable<User> Get()
         {
-
-
-            return Repo.GetUsers();
+          return Repo.GetUsers();
         }
 
     }
