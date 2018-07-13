@@ -7,15 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 using Toobtech.UserManagement.Api.Models;
 using Toobtech.UserManagement.Business;
 using Toobtech.UserManagement.Common;
+using Toobtech.UserManagement.Data;
 
 namespace Toobtech.UserManagement.Api.Controllers
 {
-    [Produces("application/json")]
-    [Route("Users")]
+    [Route("Um")]
     public class UsersController : Controller
     {
-        IUserRepository Repo = new UserRepository();
-
+       private readonly IUserRepository Repo;
+        public UsersController(IUserRepository repo)
+        {
+            Repo = repo;
+        }
         [Route("")]
         [HttpGet]
         public IEnumerable<User> Get()

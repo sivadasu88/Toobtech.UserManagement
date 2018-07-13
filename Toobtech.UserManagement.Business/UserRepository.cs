@@ -8,7 +8,11 @@ namespace Toobtech.UserManagement.Business
 {
     public class UserRepository : IUserRepository
     {
-        IUserDataRepository Repo = new UserDataRepository();
+       private readonly IUserDataRepository Repo;
+        public UserRepository(IUserDataRepository repo)
+        {
+            Repo = repo;
+        }
         public bool Delete(int id)
         {
           return  Repo.Delete(id);

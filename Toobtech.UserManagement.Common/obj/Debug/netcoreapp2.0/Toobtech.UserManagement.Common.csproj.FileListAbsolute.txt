@@ -6,3 +6,4 @@ D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Common\obj\Debug\net
 D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Common\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Common.AssemblyInfo.cs
 D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Common\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Common.dll
 D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Common\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Common.pdb
+D:\Projects\Toobtech.UserManagement\Toobtech.UserManagement.Common\obj\Debug\netcoreapp2.0\Toobtech.UserManagement.Common.csprojAssemblyReference.cache
