@@ -11,5 +11,6 @@ namespace Toobtech.UserManagement.Common
         public string UpdatedBy { get; set; }
         public DateTime CreatedTime { get; set; }
         public DateTime UpdatedTime { get; set; }
+
     }
 }
