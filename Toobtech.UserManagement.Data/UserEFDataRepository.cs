@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Toobtech.UserManagement.Common;
+using Toobtech.UserManagement.Data.Model;
 
 namespace Toobtech.UserManagement.Data
 {
@@ -17,29 +18,37 @@ namespace Toobtech.UserManagement.Data
         }
           public bool Delete(int id)
         {
-            throw new NotImplementedException();
+           var res= _context.Users.Where(user => user.Id == id).FirstOrDefault();
+            _context.Users.Attach(res);
+            _context.Users.Remove(res);
+            return true;
+
         }
 
-        public List<User> GetUsers()
+        public List<UsersRecord> GetUsers()
         {
             //Type conversion
-          
-                List<User> users = new List<User>();
-            foreach (var item in _context.Users)
-            {
-                users.Add(new User() { Id = item.Id, Name = item.Name, Description = item.Description });
-            }
-            return users;
+
+          return   _context.Users.ToList();
         }
 
-        public bool Insert(User user)
+        public bool Insert(UsersRecord user)
         {
-            throw new NotImplementedException();
+
+            bool res;
+            _context.Users.Add(user);
+           res=Convert.ToBoolean(_context.SaveChanges());
+            return res;
+              
         }
 
-        public bool Update(User user)
+        public bool Update(UsersRecord user)
         {
-            throw new NotImplementedException();
+            _context.Attach(user);
+            _context.Users.Add(user);
+            _context.SaveChanges();
+            return true;
+
         }
     }
 }
