@@ -6,9 +6,9 @@ using System.Text;
 namespace Toobtech.UserManagement.Data.Model
 {
     [Table("tbl_users")]
-   public class Users
+   public class UsersRecord
     {
-       
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }

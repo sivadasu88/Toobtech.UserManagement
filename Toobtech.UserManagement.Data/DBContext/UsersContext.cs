@@ -11,7 +11,7 @@ namespace Ipreo.NS.Permissions.Data.Repository.DataContext
         private readonly ILoggerFactory _loggerFactory;
         private readonly ILogger _logger;
 
-        public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<UsersRecord> Users { get; set; }
 
       public  UsersContext()
         {
@@ -43,7 +43,7 @@ namespace Ipreo.NS.Permissions.Data.Repository.DataContext
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Users>().HasKey(c => new { c.Id });
+            modelBuilder.Entity<UsersRecord>().HasKey(c => new { c.Id });
            
 
         }

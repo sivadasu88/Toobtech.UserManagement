@@ -39,6 +39,7 @@ namespace Toobtech.UserManagement.Api
             services.AddScoped<DbContext, UsersContext>();
             // services.AddTransient<IUserRepository, UserRepository>();
             services.AddScoped<IUserDataRepository, UserEFDataRepository>();
+
            // services.AddScoped<IUserDataRepository, UserDataRepository>();
             services.AddMvc();
         }
